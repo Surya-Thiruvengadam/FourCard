@@ -1,23 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import FourCard from "./FourCard";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+    <div className="pagecontainer">
+      <header>
+        <h1> Reliable, efficient delivery </h1>
+        <h1>Powered by Technology</h1>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Our Artificial Intelligence powered tools use millions of project data 
+          points to ensure that your project is successful
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
+      <main>
+      <FourCard/>
+      </main>
+      
     </div>
   );
 }
