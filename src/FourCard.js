@@ -27,22 +27,22 @@ function FourCard() {
   return (
     <ul className="gridcontainer">
       <li className="  g-item g-child1">
-        <h3>Supervisor</h3>
+        <h1>Supervisor</h1>
         <p>Monitors activity to identify project roadblocks</p>
         <img src={superviser} alt="superviser" />
       </li>
       <li className=" g-item g-child2">
-        <h3>Team Builder</h3>
+        <h1>Team Builder</h1>
         <p>Scans our talent network to create the optimal team for your project</p>
         <img src={builder} alt="builder" />
       </li>
       <li className=" g-item g-child3"> 
-        <h3>Karma</h3>
+        <h1>Karma</h1>
         <p>Regularly evaluates our talent to ensure quality</p>
         <img src={karma} alt="karma" />
       </li>
       <li className=" g-item g-child4">
-        <h3>Calculator</h3>
+        <h1>Calculator</h1>
         <p>Uses data from past projects to provide better delivery estimates</p>
         <img src={calculator} alt="calculator" />
       </li>
